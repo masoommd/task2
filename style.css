@@ -1,0 +1,95 @@
+* {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    
+    font-weight: 900;
+}
+
+.input-box {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.todo-list {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    /* border:2px solid black; */
+    max-width: 80%;
+    margin: 0;
+    align-items: center;
+    
+}
+
+.todo-list li{
+    font-size: 30px;
+    border: 1.5px solid black;
+    width: 35%;
+    padding: 3px 18px;
+    margin-left: 85px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    justify-content:start;
+    gap: 15px;
+    align-items: center;
+    
+}
+
+.task-completed {
+    
+    font-size: 20px;
+    margin-right: 0px;
+}
+
+
+.delete{
+    font-size: 17px;
+    padding: 5px 10px;
+    margin-left: 310px;
+    position: absolute;
+    background-color: red;
+}
+
+.completed{
+    text-decoration: line-through;
+    background-color: rgb(15, 211, 15);
+    color: white;
+}
